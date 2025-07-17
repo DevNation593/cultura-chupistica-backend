@@ -1,0 +1,62 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by testing tools
+coverage/
+
+# dotenv environment variables
+.env
+.env.test
+.env.production
+
+# MongoDB database files (if running local data)
+data/
+dump/
+
+# Build output
+dist/
+build/
+
+# Optional npm cache directory
+.npm/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# MacOS system files
+.DS_Store
+
+# Debug log from Docker
+docker-debug.log
+
+# Optional logs for pm2
+pids/
+logs/
+
+# Backup files
+*.bak
+*.swp
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Others
+*.tgz

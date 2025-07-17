@@ -1,0 +1,43 @@
+{
+  "name": "cultura-chupistica-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node production.js",
+    "dev": "node dev.js",
+    "dev:watch": "nodemon dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:unit": "jest --testMatch='**/__tests__/**/*.test.js'",
+    "test:integration": "jest --testMatch='**/__tests__/**/*.integration.test.js'",
+    "db:seed": "node scripts/seedDatabase.js",
+    "db:reset": "node scripts/resetDatabase.js",
+    "health": "node healthcheck.js",
+    "health:json": "node healthcheck.js --json",
+    "logs": "tail -f logs/app.log",
+    "lint": "eslint src/ --ext .js",
+    "lint:fix": "eslint src/ --ext .js --fix",
+    "prestart": "node healthcheck.js --check-running || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevNation593/cultura-chupistica-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevNation593/cultura-chupistica-backend/issues"
+  },
+  "homepage": "https://github.com/DevNation593/cultura-chupistica-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.3",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
