@@ -58,19 +58,19 @@ npm run logs
 
 ### Cartas Especiales
 
-- **A (As)**: Venganza - El jugador puede elegir a alguien para que tome
-- **K (Rey)**: Copa del Rey - Todos los jugadores toman
-- **Q (Reina)**: Pregunta - El jugador hace una pregunta
-- **J (Jota)**: Categoría - El jugador dice una categoría
-- **10**: Nunca he - El jugador dice "Nunca he..."
-- **9**: Rima - El jugador dice una palabra, todos deben rimar
-- **8**: Mate - El jugador elige un compañero de tragos
-- **7**: Regla - El jugador crea una regla para el juego
-- **6**: Hombres - Todos los hombres toman
-- **5**: Manos al cielo - El último en levantar las manos toma
-- **4**: Mujeres - Todas las mujeres toman
-- **3**: Tomo yo - El jugador que sacó la carta toma
-- **2**: Eliges tú - El jugador elige a alguien para que tome
+- **A (As)**: Venganza - Se usa para hacer tomar a alguien cuando se acabe el juego
+- **K (Rey)**: Copa del Rey - 1ra K: llenar 1/4 del vaso con licor, 2da K: añadir más, 3ra K: completar más, 4ta K: llenar completamente y tomárselo
+- **Q (Reina)**: El jugador de la derecha toma
+- **J (Jota)**: El jugador de la izquierda toma
+- **10**: Al juez (quien está sirviendo) o Historia - Entre todos forman una historia diciendo una palabra, repitiendo las anteriores y sumando una más hasta que alguien se equivoque
+- **9**: Al que se mueve - La persona guarda esta carta y cuando quiera usarla cuenta 1,2,3 al que se mueve. El que sacó la carta puede moverse y ver quién se mueve para que tome
+- **8**: Al más joven o Colores - Rojos: al más pequeño de cualquier cosa, Negros: al más grande de cualquier cosa
+- **7**: 7 pum - Todo número multiplicado o terminado en 7 no se nombra, se dice pum y cambia el sentido de juego
+- **6**: Al que vez - La primera persona a la que veas tiene que tomar
+- **5**: Al brinco - La persona guarda esta carta y cuando quiera usarla cuenta 1,2,3 al brinco y el último que salte toma
+- **4**: Al más gato (ojos más claros) o Mi barquito - "Mi barquito viene cargado de..." (ejemplo: marcas de celulares)
+- **3**: Yo nunca nunca - Las personas alzan 3 dedos y van diciendo cosas que nunca hayan hecho pero que piensen que los demás sí, para que bajen los dedos. La persona o personas que bajen todos sus dedos deben tomar
+- **2**: A vos - Toma la persona que sacó la carta
 
 ## 🏗️ Arquitectura
 
